@@ -99,13 +99,13 @@ const Cekkhodam = () => {
           </Highlight>
         </motion.h1>
         <p className="text-center text-md my-5">
-          Cek khodam yang ada pada tubuh kamu melalui nama !
+          Cek khodam yang ada pada diri kamu melalui nama !
         </p>
         <Card className="lg:w-[380px] md:w-[380px] w-[300px] dark:bg-[#18181b] bg-gray-300  mx-auto border-none relative overflow-hiden shrink-0 overflow-inherit color-inherit subpixel-antialiased ">
           <CardHeader>
             <CardTitle className="text-white font-bold"></CardTitle>
             <CardDescription className="text-center flex justify-center dark:text-gray-400 text-gray-600">
-              Cek khodam yang ada pada tubuh <br /> kamu sekarang ! 😉
+              Cek khodam yang ada pada diri <br /> kamu sekarang ! 😉
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -144,7 +144,7 @@ const Cekkhodam = () => {
               {isLoading ? (
                 <>
                   <CircularProgress size={15} color="secondary" />{" "}
-                  <p>sedang mencari</p>
+                  <p className="text-xs ">sedang mencari</p>
                 </>
               ) : (
                 <>
