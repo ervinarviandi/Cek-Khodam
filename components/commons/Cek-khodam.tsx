@@ -138,7 +138,6 @@ const Cekkhodam = () => {
               </div>
             </form>
             <div className="text-lg dark:text-white mt-6 p-4 dark:bg-zinc-800 bg-gray-200 text-black rounded-xl relative mx-auto text-center">
-              {/* <BorderBeam size={250} duration={12} delay={9} /> */}
               <p className="text-center">
                 Khodam yang ada di dalam diri Kamu adalah :{" "}
               </p>
@@ -160,6 +159,7 @@ const Cekkhodam = () => {
             <Button variant="outline">Cancel</Button>
             <Button>Deploy</Button>
             </CardFooter> */}
+          <BorderBeam size={250} duration={12} delay={9} />
         </Card>
       </div>
     </HeroHighlight>
