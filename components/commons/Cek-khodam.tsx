@@ -159,7 +159,7 @@ const Cekkhodam = () => {
             <Button variant="outline">Cancel</Button>
             <Button>Deploy</Button>
             </CardFooter> */}
-          <BorderBeam size={250} duration={12} delay={9} />
+          {/* <BorderBeam size={250} duration={12} delay={9} /> */}
         </Card>
       </div>
     </HeroHighlight>
