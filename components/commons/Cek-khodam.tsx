@@ -153,13 +153,13 @@ const Cekkhodam = () => {
                   </p>
                 </>
               )}
+              {/* <BorderBeam size={250} duration={12} delay={9} /> */}
             </div>
           </CardContent>
           {/* <CardFooter className="flex justify-between">
             <Button variant="outline">Cancel</Button>
             <Button>Deploy</Button>
             </CardFooter> */}
-          {/* <BorderBeam size={250} duration={12} delay={9} /> */}
         </Card>
       </div>
     </HeroHighlight>

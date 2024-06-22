@@ -4,6 +4,8 @@ import { ModeToggle } from "../organisms/mode-toggle";
 import Image from "next/image";
 import Brands from "@/assets/_525b1de5-acf9-4461-b7b8-2920f23ba501.jpg";
 import { useState } from "react";
+import { IoLogoGithub } from "react-icons/io5";
+import Link from "next/link";
 
 const Headers = () => {
   const [isLoading, setLoading] = useState(true);
@@ -46,7 +48,10 @@ const Headers = () => {
           </p> */}
         </div>
 
-        <div>
+        <div className="flex items-center gap-x-3 ">
+          <Link href="https://github.com/ervinarviandi" target="blank">
+            <IoLogoGithub size={18} />
+          </Link>
           <ModeToggle />
         </div>
       </div>
