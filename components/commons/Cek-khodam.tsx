@@ -143,7 +143,7 @@ const Cekkhodam = () => {
               {isLoading ? (
                 <>
                   <CircularProgress size={15} color="secondary" />{" "}
-                  <p className="text-xs ">sedang mencari</p>
+                  <p className="text-xs ">sedang memeriksa khodam...</p>
                 </>
               ) : (
                 <>

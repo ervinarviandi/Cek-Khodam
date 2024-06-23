@@ -54,7 +54,7 @@ export default function RootLayout({
         >
           <link
             rel="icon"
-            href="/_525b1de5-acf9-4461-b7b8-2920f23ba501.ico"
+            href="/_0f75efe7-e868-4f8d-ba3a-32a667aaca6a.ico"
             sizes="any"
           />
           {children}
