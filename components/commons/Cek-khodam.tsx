@@ -44,6 +44,7 @@ const Cekkhodam = () => {
     if (findNameCache !== undefined) {
       setResult(findNameCache.result);
       setIsLoading(true);
+
       return;
     }
 
@@ -119,21 +120,19 @@ const Cekkhodam = () => {
                     placeholder="tuliskan nama kamu disini....."
                     className="z-20 focus:bg-green-900 bg-green-900 text-green-600 placeholder:text-green-500 focus:outline-none border-none rounded-xl  "
                   />
-                  <div>
-                    <Button className="bg-purple-700 hover:bg-purple-600 text-white w-full z-50 flex items-center gap-x-2 rounded-xl ">
-                      <IoSparklesSharp size={18} />
-                      Cek Khodam
-                    </Button>
-                  </div>
-                  <div>
-                    <button
-                      className="py-2 px-5 w-full bg-amber-500 text-white rounded-xl flex items-center gap-x-2  justify-center"
-                      onClick={handleReset}
-                    >
-                      <HiOutlineRefresh />
-                      Ulangi
-                    </button>
-                  </div>
+
+                  <Button className="bg-purple-700 hover:bg-purple-600 text-white w-full  flex items-center gap-x-2 rounded-xl z-20">
+                    <IoSparklesSharp size={18} />
+                    Cek Khodam
+                  </Button>
+
+                  <Button
+                    className="py-2 px-5 w-full bg-amber-600 hover:bg-amber-500 text-[#fff] rounded-xl flex items-center gap-x-2 z-20  justify-center"
+                    onClick={handleReset}
+                  >
+                    <HiOutlineRefresh />
+                    Ulangi
+                  </Button>
                 </div>
               </div>
             </form>
@@ -153,9 +152,9 @@ const Cekkhodam = () => {
                   </p>
                 </>
               )}
-              {/* <BorderBeam size={250} duration={12} delay={9} /> */}
             </div>
           </CardContent>
+          <BorderBeam size={60} duration={12} delay={9} />
           {/* <CardFooter className="flex justify-between">
             <Button variant="outline">Cancel</Button>
             <Button>Deploy</Button>
